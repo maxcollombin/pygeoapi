@@ -99,3 +99,7 @@ resources:
         type: process
         processor:
             name: pygeoapi.process.shapely_functions.ShapelyFunctionsProcessor
+    # zonalstats:
+    #     type: process
+    #     processor:
+    #         name: pygeoapi.process.zonalStats.ZonalStatsProcessor
