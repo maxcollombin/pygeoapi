@@ -3,7 +3,8 @@
 
 import logging
 
-import gdal, ogr, osr, numpy
+import numpy
+from osgeo import gdal, ogr, osr
 from pygeoapi.process.base import BaseProcessor, ProcessorExecuteError
 
 LOGGER = logging.getLogger(__name__)
