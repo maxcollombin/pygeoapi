@@ -8,4 +8,4 @@ services:
     volumes:
       - ./pygeoapi.config.yml:/pygeoapi/local.config.yml
       - ./plugins/process/shapely_functions.py:/pygeoapi/pygeoapi/process/shapely_functions.py
-    
+      # - ./plugins/process/zonalStats.py:/pygeoapi/pygeoapi/process/zonalStats.py
