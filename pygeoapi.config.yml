@@ -89,6 +89,7 @@ resources:
         providers:
             - type: feature
               name: CSV
+              editable: true
               data: tests/data/obs.csv
               id_field: id
               geometry:
@@ -99,8 +100,4 @@ resources:
         type: process
         processor:
             name: pygeoapi.process.shapely_functions.ShapelyFunctionsProcessor
-    # zonalstats:
-    #     type: process
-    #     processor:
-    #         name: pygeoapi.process.zonalStats.ZonalStatsProcessor
 
