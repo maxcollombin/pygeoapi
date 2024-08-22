@@ -54,7 +54,7 @@ PROCESS_METADATA = {
     'outputs': {
         'statsValue': {
             'title': 'Zonal Statistics Ouputs',
-            'description': 'Statistical summary: Average, Mean, Medain, Standard Deviation, Variance',
+            'description': 'Statistical summary: Average, Mean, Median, Standard Deviation, Variance',
             'schema': {
                 'type': 'object',
                 'contentMediaType': 'application/json'

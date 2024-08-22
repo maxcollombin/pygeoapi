@@ -104,3 +104,8 @@ resources:
         type: process
         processor:
             name: pygeoapi.process.zonalStats.ZonalStatsProcessor
+    geom-details:
+        type: process
+        processor:
+            name: pygeoapi.process.geom_details.GeomProcessor
+
